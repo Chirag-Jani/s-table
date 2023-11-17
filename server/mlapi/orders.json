@@ -1,0 +1,384 @@
+{
+    "name": "Sample Restaurant",
+    "menu": [
+      {
+        "id": "1",
+        "price": 10,
+        "imageUrl": "https://example.com/item1.jpg",
+        "description": "Description for Item 1",
+        "_id": {
+          "$oid": "654dd829a2aaf5dde8c0e687"
+        },
+        "__v": 0
+      },
+      {
+        "id": "2",
+        "price": 15,
+        "imageUrl": "https://example.com/item2.jpg",
+        "description": "Description for Item 2",
+        "_id": {
+          "$oid": "654dd829a2aaf5dde8c0e688"
+        },
+        "__v": 0
+      }
+    ],
+    "orders": [
+      {
+        "items": [
+          {
+            "id": "0",
+            "title": "Pizza",
+            "price": 100,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd881a2aaf5dde8c0e693"
+            }
+          },
+          {
+            "id": "2",
+            "title": "Panipuri",
+            "price": 30,
+            "quantity": 2,
+            "_id": {
+              "$oid": "654dd881a2aaf5dde8c0e694"
+            }
+          },
+          {
+            "id": "3",
+            "title": "Cold Drink",
+            "price": 5,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd881a2aaf5dde8c0e695"
+            }
+          }
+        ],
+        "netAmount": 195,  
+        "timestamp": {
+          "$date": "2023-11-10T07:15:13.850Z"
+        },
+        "_id": {
+          "$oid": "654dd881a2aaf5dde8c0e692"
+        },
+        "__v": 0
+      },
+      {
+        "items": [
+          {
+            "id": "1",
+            "title": "Burger",
+            "price": 80,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6a1"
+            }
+          },
+          {
+            "id": "0",
+            "title": "Pizza",
+            "price": 100,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6a2"
+            }
+          },
+          {
+            "id": "3",
+            "title": "Cold Drink",
+            "price": 5,
+            "quantity": 2,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6a3"
+            }
+          }
+        ],
+        "netAmount": 285, 
+        "timestamp": {
+          "$date": "2023-11-10T07:16:32.864Z"
+        },
+        "_id": {
+          "$oid": "654dd8d0a2aaf5dde8c0e6a0"
+        },
+        "__v": 0
+      },
+      {
+        "items": [
+          {
+            "id": "2",
+            "title": "Dosa",
+            "price": 20,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6a4"
+            }
+          },
+          {
+            "id": "1",
+            "title": "Idli and Upma",
+            "price": 25,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6a5"
+            }
+          }
+        ],
+        "netAmount": 45,  
+        "timestamp": {
+          "$date": "2023-11-10T07:18:45.123Z"
+        },
+        "_id": {
+          "$oid": "654dd8d0a2aaf5dde8c0e6a6"
+        },
+        "__v": 0
+      },
+      {
+        "items": [
+          {
+            "id": "0",
+            "title": "Pizza",
+            "price": 100,
+            "quantity": 2,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6a7"
+            }
+          },
+          {
+            "id": "3",
+            "title": "Cold Drink",
+            "price": 5,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6a8"
+            }
+          }
+        ],
+        "netAmount": 205,  
+        "timestamp": {
+          "$date": "2023-11-10T07:20:10.567Z"
+        },
+        "_id": {
+          "$oid": "654dd8d0a2aaf5dde8c0e6a9"
+        },
+        "__v": 0
+      },
+      {
+        "items": [
+          {
+            "id": "1",
+            "title": "Burger",
+            "price": 80,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6aa"
+            }
+          },
+          {
+            "id": "2",
+            "title": "Panipuri",
+            "price": 30,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6ab"
+            }
+          }
+        ],
+        "netAmount": 110,  
+        "timestamp": {
+          "$date": "2023-11-10T07:22:30.987Z"
+        },
+        "_id": {
+          "$oid": "654dd8d0a2aaf5dde8c0e6ac"
+        },
+        "__v": 0
+      },
+      {
+        "items": [
+          {
+            "id": "1",
+            "title": "Burger",
+            "price": 80,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6ad"
+            }
+          },
+          {
+            "id": "0",
+            "title": "Pizza",
+            "price": 100,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6ae"
+            }
+          },
+          {
+            "id": "2",
+            "title": "Dosa",
+            "price": 20,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6af"
+            }
+          }
+        ],
+        "netAmount": 200,  
+        "timestamp": {
+          "$date": "2023-11-10T07:24:15.789Z"
+        },
+        "_id": {
+          "$oid": "654dd8d0a2aaf5dde8c0e6b0"
+        },
+        "__v": 0
+      },
+      {
+        "items": [
+          {
+            "id": "0",
+            "title": "Pizza",
+            "price": 100,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6b1"
+            }
+          },
+          {
+            "id": "1",
+            "title": "Burger",
+            "price": 80,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6b2"
+            }
+          },
+          {
+            "id": "3",
+            "title": "Cold Drink",
+            "price": 5,
+            "quantity": 2,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6b3"
+            }
+          }
+        ],
+        "netAmount": 285,  
+        "timestamp": {
+          "$date": "2023-11-10T07:26:40.456Z"
+        },
+        "_id": {
+          "$oid": "654dd8d0a2aaf5dde8c0e6b4"
+        },
+        "__v": 0
+      },
+      {
+        "items": [
+          {
+            "id": "2",
+            "title": "Dosa",
+            "price": 20,
+            "quantity": 2,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6b5"
+            }
+          },
+          {
+            "id": "1",
+            "title": "Idli and Upma",
+            "price": 25,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6b6"
+            }
+          }
+        ],
+        "netAmount": 65,  
+        "timestamp": {
+          "$date": "2023-11-10T07:28:55.632Z"
+        },
+        "_id": {
+          "$oid": "654dd8d0a2aaf5dde8c0e6b7"
+        },
+        "__v": 0
+      },
+      {
+        "items": [
+          {
+            "id": "0",
+            "title": "Pizza",
+            "price": 100,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6b8"
+            }
+          },
+          {
+            "id": "1",
+            "title": "Burger",
+            "price": 80,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6b9"
+            }
+          },
+          {
+            "id": "2",
+            "title": "Dosa",
+            "price": 20,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6ba"
+            }
+          },
+          {
+            "id": "3",
+            "title": "Cold Drink",
+            "price": 5,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6bb"
+            }
+          }
+        ],
+        "netAmount": 205,  
+        "timestamp": {
+          "$date": "2023-11-10T07:30:20.874Z"
+        },
+        "_id": {
+          "$oid": "654dd8d0a2aaf5dde8c0e6bc"
+        },
+        "__v": 0
+      },
+      {
+        "items": [
+          {
+            "id": "1",
+            "title": "Burger",
+            "price": 80,
+            "quantity": 2,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6bd"
+            }
+          },
+          {
+            "id": "2",
+            "title": "Dosa",
+            "price": 20,
+            "quantity": 1,
+            "_id": {
+              "$oid": "654dd8d0a2aaf5dde8c0e6be"
+            }
+          }
+        ],
+        "netAmount": 180,  
+        "timestamp": {
+          "$date": "2023-11-10T07:32:45.111Z"
+        },
+        "_id": {
+          "$oid": "654dd8d0a2aaf5dde8c0e6bf"
+        },
+        "__v": 0
+      }
+    ],
+    "users": [],
+    "__v": 13
+  }
+  
