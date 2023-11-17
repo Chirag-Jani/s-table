@@ -17,7 +17,7 @@ function App() {
 
   const getData = async () => {
     try {
-      let response = await fetch("http://127.0.0.1:8080/");
+      let response = await fetch("https://s-table-server.vercel.app/");
       if (!response.ok) {
         throw new Error("Error creating order");
       }

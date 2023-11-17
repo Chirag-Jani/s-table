@@ -34,7 +34,7 @@ const Cart = ({ cart, updateQuantity, removeItem, setCart, recommand }) => {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8080/restaurants/655323b268039e71097c7091/orders`,
+        `https://s-table-server.vercel.app/restaurants/655323b268039e71097c7091/orders`,
         {
           method: "POST",
           headers: {
