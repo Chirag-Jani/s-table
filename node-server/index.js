@@ -25,7 +25,8 @@ app.listen(port, () => {
 });
 
 // * routes
-app.use("/", require("./routes/admin"));
+app.use("/admin/", require("./routes/admin"));
+app.use("/resto/", require("./routes/resto"));
 
 // * connecting the database
 connectToMongoDB();
